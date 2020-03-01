@@ -1,6 +1,6 @@
 import { Avatar, Card, createStyles, Divider, Grid, makeStyles, Typography } from '@material-ui/core';
 import teal from '@material-ui/core/colors/teal';
-import { Attachment, Email, LinkedIn } from '@material-ui/icons';
+import { Email, GitHub, LinkedIn } from '@material-ui/icons';
 import React from 'react';
 
 import { MEDIUM_SPACE, NAME } from '../../constants/general-constant';
@@ -35,15 +35,15 @@ function About() {
       />
       <Divider />
       <LinkSection
-        leftIcon={<Email className={classes.icon} />}
-        linkText="tptmac7@gmail.com"
-        linkHref="mailto:tptmac7@gmail.com"
+        leftIcon={<GitHub className={classes.icon} />}
+        linkText="github.com/tptmac"
+        linkHref="https://github.com/tptmac/portfolio"
       />
       <Divider />
       <LinkSection
-        leftIcon={<Attachment className={classes.icon} />}
-        linkText="Resume"
-        linkHref="./assets/resume.pdf"
+        leftIcon={<Email className={classes.icon} />}
+        linkText="tptmac7@gmail.com"
+        linkHref="mailto:tptmac7@gmail.com"
       />
       <Divider />
     </Card>
