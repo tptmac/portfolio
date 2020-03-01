@@ -24,8 +24,8 @@ const GridLink = styled(Grid)`
     ::after {
       position: absolute;
       content: '';
-      background-color: ${teal[100]};
-      width: 2px;
+      background-color: rgba(0, 0, 0, 0.12);
+      width: 1px;
       height: 40px;
       bottom: -29px;
       left: 12%;
