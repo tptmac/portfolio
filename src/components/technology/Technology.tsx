@@ -5,7 +5,7 @@ import React from 'react';
 
 import { MEDIUM_SPACE } from '../../constants/general-constant';
 
-const TECHNOLOGIES = ['Amazon Web Services (AWS)', 'Java', 'JavaScript', 'TypeScript', 'Node.js', 'HTML', 'CSS', 'Sass', 'ASP.NET', 'C#', 'React'];
+const TECHNOLOGIES = ['Amazon Web Services (AWS)', 'Java', 'JavaScript', 'TypeScript', 'Node.js', 'SQL', 'ASP.NET', 'C#', 'React', 'REST API', 'Swagger/OpenAPI', 'Postman'];
 
 function Technology() {
   return (
